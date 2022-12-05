@@ -657,7 +657,7 @@
   }
   .review {
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-color: #191919;
     .rtop {
       width: 100%;
@@ -769,7 +769,7 @@
             }
           }
         }
-        .pp_bot{
+        .pp_bot {
           width: 100%;
           height: 55px;
           display: flex;
@@ -777,27 +777,260 @@
           justify-content: center;
           gap: 30px;
           padding-top: 20px;
-          .pic:nth-child(1){
-            width: 160px; 
+          .pic:nth-child(1) {
+            width: 160px;
             height: 100%;
-            img{
+            img {
               width: 100%;
             }
           }
-          .pic:nth-child(2){
-            width: 65px; 
+          .pic:nth-child(2) {
+            width: 65px;
             height: 100%;
-            img{
+            img {
               width: 100%;
             }
           }
-          .pic:nth-child(3){
-            width: 65px; 
+          .pic:nth-child(3) {
+            width: 65px;
             height: 100%;
-            img{
+            img {
               width: 100%;
             }
           }
+        }
+      }
+    }
+  }
+  .recipe {
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+
+    .rec_top {
+      width: 100%;
+      height: 240px;
+      .stop {
+        width: 100%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        &::before {
+          content: " ";
+          bottom: 70px;
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          // background-color: #fff;
+          border-top: 1px solid #34c759;
+        }
+
+        .work {
+          h2 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 100px;
+            line-height: 5px;
+            text-align: center;
+            letter-spacing: 0.2em;
+            color: #303030;
+          }
+          h3 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 0px;
+            text-align: center;
+            letter-spacing: 0.2em;
+            text-transform: capitalize;
+            color: #d9d9d9;
+          }
+        }
+      }
+    }
+    .rec_bot {
+      width: 100%;
+      height: 510px;
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      .rr_left {
+        width: 540px;
+        height: 510px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(/img/placeholder\ rec.png);
+        border-radius: 10px;
+
+        .rl_top {
+          width: 100%;
+          height: 80px;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+
+          button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            transition: all 0.3s linear;
+            background-color: rgba($color: #000, $alpha: 0.15);
+            &:hover {
+              transform: scale(1.1);
+              box-shadow: 0 0 0 1px rgba($color: #34c759, $alpha: 1);
+            }
+          }
+        }
+        .rl_center {
+          width: 359px;
+          height: 300px;
+          margin-left: 20%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          // justify-content: center;
+          button {
+            width: 89px;
+            height: 25px;
+            background-color: #322f3d;
+            color: #fff;
+            border-radius: 10px;
+            text-transform: uppercase;
+            font-size: 10px;
+            transition: all 0.3s linear;
+            &:hover {
+              transform: scale(1.1);
+              background-color: #34c759;
+              color: #fff;
+            }
+          }
+          h3 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* identical to box height, or 214% */
+            padding-top: 65px;
+            color: #ffffff;
+          }
+          h2 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            /* or 167% */
+            padding-top: 25px;
+            padding-bottom: 45px;
+            text-align: center;
+            color: #ffffff;
+          }
+          p {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* identical to box height, or 214% */
+
+            color: #ffffff;
+          }
+        }
+        .rl_bot {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          margin-left: 20px;
+          padding-top: 60px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      .rr_right {
+        width: 580px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .lorem {
+          width: 540px;
+          height: 150px;
+          border: 1px solid;
+          background-color: #252525;
+          border-radius: 10px;
+          .lor_top {
+            width: 505px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            text-align: start;
+            h2 {
+              font-family: "Helvetica Neue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 30px;
+              /* or 188% */
+              color: #ffffff;
+              padding-top: 20px;
+            }
+          }
+          .lor_bot {
+            width: 505px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 165px;
+            .bot_left {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              button {
+                width: 65px;
+                height: 25px;
+                color: #fff;
+                border-radius: 5px;
+                background-color: #1a1a1a;
+                text-transform: uppercase;
+                font-family: "Helvetica Neue";
+                font-style: normal;
+                font-weight: 900;
+                font-size: 10px;
+                line-height: 20px;
+                /* identical to box height, or 250% */
+                letter-spacing: 1.25px;
+                text-transform: uppercase;
+
+                color: #ffffff;
+              }
+              p {
+                font-family: "Helvetica Neue";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 25px;
+                /* identical to box height, or 208% */
+
+                color: #b3b3b3;
+              }
+            }
+          }
+          &:nth-child(2){
+            background-image:url(/img/image\ rec.png) ;
+          }
+          
+          
         }
       }
     }

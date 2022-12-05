@@ -617,7 +617,7 @@
 }
 .container .review {
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: #191919;
 }
 .container .review .rtop {
@@ -752,6 +752,226 @@
 }
 .container .review .rbot .people .pp_bot .pic:nth-child(3) img {
   width: 100%;
+}
+.container .recipe {
+  width: 100%;
+  height: 100%;
+  background-color: #191919;
+}
+.container .recipe .rec_top {
+  width: 100%;
+  height: 240px;
+}
+.container .recipe .rec_top .stop {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.container .recipe .rec_top .stop::before {
+  content: " ";
+  bottom: 70px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-top: 1px solid #34c759;
+}
+.container .recipe .rec_top .stop .work h2 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 5px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+.container .recipe .rec_top .stop .work h3 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 0px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+  color: #d9d9d9;
+}
+.container .recipe .rec_bot {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.container .recipe .rec_bot .rr_left {
+  width: 540px;
+  height: 510px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/placeholder\ rec.png);
+  border-radius: 10px;
+}
+.container .recipe .rec_bot .rr_left .rl_top {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.container .recipe .rec_bot .rr_left .rl_top button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.container .recipe .rec_bot .rr_left .rl_top button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 1px #34c759;
+}
+.container .recipe .rec_bot .rr_left .rl_center {
+  width: 359px;
+  height: 300px;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container .recipe .rec_bot .rr_left .rl_center button {
+  width: 89px;
+  height: 25px;
+  background-color: #322f3d;
+  color: #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: all 0.3s linear;
+}
+.container .recipe .rec_bot .rr_left .rl_center button:hover {
+  transform: scale(1.1);
+  background-color: #34c759;
+  color: #fff;
+}
+.container .recipe .rec_bot .rr_left .rl_center h3 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  padding-top: 65px;
+  color: #ffffff;
+}
+.container .recipe .rec_bot .rr_left .rl_center h2 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  padding-top: 25px;
+  padding-bottom: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+.container .recipe .rec_bot .rr_left .rl_center p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  color: #ffffff;
+}
+.container .recipe .rec_bot .rr_left .rl_bot {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  margin-left: 20px;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .recipe .rec_bot .rr_right {
+  width: 580px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.container .recipe .rec_bot .rr_right .lorem {
+  width: 540px;
+  height: 150px;
+  border: 1px solid;
+  background-color: #252525;
+  border-radius: 10px;
+}
+.container .recipe .rec_bot .rr_right .lorem .lor_top {
+  width: 505px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+.container .recipe .rec_bot .rr_right .lorem .lor_top h2 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+  color: #ffffff;
+  padding-top: 20px;
+}
+.container .recipe .rec_bot .rr_right .lorem .lor_bot {
+  width: 505px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 165px;
+}
+.container .recipe .rec_bot .rr_right .lorem .lor_bot .bot_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .recipe .rec_bot .rr_right .lorem .lor_bot .bot_left button {
+  width: 65px;
+  height: 25px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 20px;
+  /* identical to box height, or 250% */
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.container .recipe .rec_bot .rr_right .lorem .lor_bot .bot_left p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  color: #b3b3b3;
+}
+.container .recipe .rec_bot .rr_right .lorem:nth-child(2) {
+  background-image: url(/img/image\ rec.png);
 }
 
 /*# sourceMappingURL=main.css.map */
