@@ -804,7 +804,7 @@
   }
   .recipe {
     width: 100%;
-    height: 100%;
+    height: 120%;
     background-color: #191919;
 
     .rec_top {
@@ -1026,11 +1026,230 @@
               }
             }
           }
-          &:nth-child(2){
-            background-image:url(/img/image\ rec.png) ;
+          &:nth-child(2) {
+            background-image: url(/img/image\ rec.png);
           }
-          
-          
+        }
+      }
+    }
+  }
+  .social {
+    width: 100%;
+    height: 600px;
+    background-color: #191919;
+    .ss_top {
+      width: 100%;
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .stop {
+        width: 100%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        &::before {
+          content: " ";
+          bottom: 70px;
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          // background-color: #fff;
+          border-top: 1px solid #34c759;
+        }
+
+        .work {
+          h2 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 100px;
+            line-height: 5px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 0.2em;
+
+            color: #303030;
+          }
+          h3 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 0px;
+            /* identical to box height, or 250% */
+
+            text-align: center;
+            letter-spacing: 0.2em;
+            text-transform: capitalize;
+
+            color: #d9d9d9;
+          }
+        }
+      }
+    }
+    .ss_bot {
+      width: 100%;
+      height: 330px;
+      display: flex;
+      justify-content: center;
+      gap :30px;
+      .network {
+        width: 350px;
+        height: 100%;
+        background-color: #303030;
+        border-radius: 10px;
+        &:nth-child(2){
+          .nn_bot{
+            display: none;
+          }
+          .nn_bot2{
+            width: 100%;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-left:  2px;
+            margin-top: 3px;
+            // gap: 2px;
+            
+            .inst{
+              width: 114px;
+              height: 120px;
+              border-radius: 10px;
+              img{
+               width: 100%;
+               height: 100%;
+               border-radius: 10px;
+               transition: all .3s linear;
+                &:hover{
+                  transform: scale(1.1);
+                }
+              }
+            }
+          }
+        }
+        &:nth-child(3){
+          .nn_bot{
+            h2{
+              display: none;
+            }
+          }
+        }
+        .nn_top {
+          width: 100%;
+          height: 85px;
+          // background-color: blue;
+          border-bottom: 1px solid #737373;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          .nnt_left {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            // background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            border: 1px solid #737373;
+          }
+          .nnt_right {
+            width: 270px;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-family: "Helvetica Neue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 30px;
+              /* identical to box height, or 214% */
+
+              color: #bfbfbf;
+            }
+            button {
+              width: 100px;
+              height: 40px;
+              border-radius: 18px;
+              background-color: transparent;
+              border-color: #737373;
+              transition: all 0.3s linear;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              &:hover {
+                background-color: #34c759;
+                transform: scale(1.1);
+              }
+
+              a {
+                font-family: "Helvetica Neue";
+                font-style: normal;
+                font-weight: 900;
+                font-size: 10px;
+                // line-height: 35px;
+                /* identical to box height, or 400% */
+
+                text-align: center;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+
+                color: #737373;
+              }
+            }
+          }
+        }
+        .nn_bot {
+          width: 100%;
+          height: 240px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-left: 20px;
+          justify-content: center;
+          gap: 20px;
+          p {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* identical to box height, or 214% */
+
+            color: #737373;
+          }
+          h3 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* or 214% */
+
+            color: rgba(255, 255, 255, 0.7);
+          }
+          h2 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* identical to box height, or 214% */
+
+            /* Primary */
+
+            color: #34c759;
+          }
         }
       }
     }
