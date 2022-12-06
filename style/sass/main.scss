@@ -467,14 +467,34 @@
         &:hover {
           transform: scale(1.1);
         }
+        &:nth-child(2 ){
+          // .ff_top{
+          // display: none;
+          // }
+          .ff_top{
+            width: 100%;
+            height: 260px;
+            background-image: url(/img/placeholder\ dish\ 2.png);
+
+          }
+
+        }
+        &:nth-child(3 ){
+          .ff_top{
+            width: 100%;
+            height: 260px;
+            background-image: url(/img/placeholder\ dish\ 3.png);
+
+          }
+        }
 
         .ff_top {
           width: 100%;
           height: 260px;
           background-image: url(/img/placeholder\ dish.png);
-          img {
-            width: 100%;
-          }
+          // img {
+          //   width: 100%;
+          // }
         }
 
         .ff_center {
@@ -570,7 +590,27 @@
         &:hover {
           transform: scale(1.1);
         }
-
+        &:nth-child(1 ){
+          .ff_top{
+            width: 100%;
+            height: 260px;
+            background-image: url(/img/placeholder2.png);
+          }
+        }
+        &:nth-child(2){
+          .ff_top{
+            width: 100%;
+            height: 260px;
+            background-image: url(/img/placeholder\ dish\ 5.png);
+          }
+        }
+        &:nth-child(3){
+          .ff_top{
+            width: 100%;
+            height: 260px;
+            background-image: url(/img/placeholder\ dish\ 6.png);
+          }
+        }
         .ff_top {
           width: 100%;
           height: 260px;

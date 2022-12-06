@@ -438,13 +438,20 @@
 .container .food .fcenter .fbox:hover {
   transform: scale(1.1);
 }
+.container .food .fcenter .fbox:nth-child(2) .ff_top {
+  width: 100%;
+  height: 260px;
+  background-image: url(/img/placeholder\ dish\ 2.png);
+}
+.container .food .fcenter .fbox:nth-child(3) .ff_top {
+  width: 100%;
+  height: 260px;
+  background-image: url(/img/placeholder\ dish\ 3.png);
+}
 .container .food .fcenter .fbox .ff_top {
   width: 100%;
   height: 260px;
   background-image: url(/img/placeholder\ dish.png);
-}
-.container .food .fcenter .fbox .ff_top img {
-  width: 100%;
 }
 .container .food .fcenter .fbox .ff_center {
   width: 100%;
@@ -535,6 +542,21 @@
 }
 .container .food .fbot .fbox:hover {
   transform: scale(1.1);
+}
+.container .food .fbot .fbox:nth-child(1) .ff_top {
+  width: 100%;
+  height: 260px;
+  background-image: url(/img/placeholder2.png);
+}
+.container .food .fbot .fbox:nth-child(2) .ff_top {
+  width: 100%;
+  height: 260px;
+  background-image: url(/img/placeholder\ dish\ 5.png);
+}
+.container .food .fbot .fbox:nth-child(3) .ff_top {
+  width: 100%;
+  height: 260px;
+  background-image: url(/img/placeholder\ dish\ 6.png);
 }
 .container .food .fbot .fbox .ff_top {
   width: 100%;
