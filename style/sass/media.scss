@@ -1,0 +1,75 @@
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .basic{
+        // height: 100vh;
+        flex-direction: column;
+    
+        .basic_card{
+            width: 90%!important;
+            height: 90%!important;
+            // height: 90%;
+            margin-right: 3.5%;
+            margin-top: 100px;
+        }
+    }
+    .small{
+        height: 700px!important;
+    }
+    .sbot{
+        flex-wrap: wrap;
+    }
+    .food{
+        height: 2500px !important;
+
+
+        .fcenter{
+            height: 1200px!important;
+            flex-wrap: wrap;
+    
+        }
+        .fbot{
+            height: 1200px!important;
+            flex-wrap: wrap;
+    
+        }
+    }
+    .review{
+    height: 700px!important;
+
+    }
+    .rbot{
+        height: 140px!important;
+        flex-wrap: wrap;
+
+        
+        
+    }
+
+    .rec_bot{
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .rl_center{
+        padding-right: 60px!important;
+    }
+   
+    .lorem{
+        width: 480px!important;
+        margin-right: 60px;
+    }
+    .lor_top{
+        h2{
+            font-size: 10px;
+
+        }
+    }
+    .social{
+        height: 1000px!important;
+    }
+    .ss_bot{
+        flex-wrap: wrap;
+    }
+}

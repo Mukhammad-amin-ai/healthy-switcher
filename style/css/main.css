@@ -826,7 +826,7 @@
   height: 510px;
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 30px;
 }
 .container .recipe .rec_bot .rr_left {
   width: 540px;

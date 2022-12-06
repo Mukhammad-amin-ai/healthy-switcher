@@ -5,6 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  
 }
 @mixin txt {
   .text_bot {
@@ -913,7 +914,7 @@
       height: 510px;
       display: flex;
       justify-content: center;
-      gap: 60px;
+      gap: 30px;
       .rr_left {
         width: 540px;
         height: 510px;
