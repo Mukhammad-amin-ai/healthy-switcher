@@ -57,5 +57,91 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  .recipe {
+    height: 200% !important;
+  }
+  .rr_left {
+    height: 810px !important;
+  }
+  .rl_bot {
+    padding-bottom: 20px;
+    padding-right: 60px;
+  }
+  .rec_bot {
+    height: 810px !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lorem {
+    width: 550px !important;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .text_top {
+    height: 220px !important;
+  }
+  .text_top h1 {
+    font-size: 52px !important;
+    line-height: 50px !important;
+  }
+  .text_top p {
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+  .ll_hid {
+    display: none;
+  }
+  .rmenu {
+    display: none;
+  }
+  .burger {
+    display: block !important;
+  }
+  .bx {
+    transition: all 0.3s linear;
+  }
+  .bx:hover .right_hidden {
+    display: block !important;
+  }
+  .basic .basic_card {
+    margin-left: 25px !important;
+    top: 100% !important;
+  }
+  .basic .theme h2 {
+    font-size: 80px !important;
+  }
+  .basic .theme h3 {
+    font-size: 30px !important;
+  }
+  .basic .theme p {
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+  .basic .images {
+    width: 80% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .basic .images img {
+    position: absolute;
+    width: 50%;
+  }
+  .fcenter {
+    height: 2500px !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fbot {
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

@@ -27,6 +27,7 @@
   align-items: center;
   border-bottom: 1px solid gray;
   gap: 165px;
+  position: relative;
 }
 .container .head .navbar .left {
   width: 200px;
@@ -39,6 +40,83 @@
   font-size: 16px;
   padding-top: 10px;
   color: #34c759;
+}
+.container .head .navbar .burger {
+  display: none;
+  width: 600px;
+  height: 1200px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.container .head .navbar .burger .flexx {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 550px;
+  gap: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .head .navbar .burger .flexx .bleft {
+  width: 300px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.container .head .navbar .burger .flexx .bleft h2 {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #34c759;
+}
+.container .head .navbar .burger .flexx .bx .right_hidden {
+  display: none;
+  width: 600px;
+  height: 601px;
+  background-color: #252525;
+  position: absolute;
+  right: 1;
+  top: 5px;
+  left: 0;
+  z-index: 2;
+  border-radius: 10px;
+}
+.container .head .navbar .burger .flexx .bx .right_hidden .around {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .head .navbar .burger .flexx .bx .right_hidden .around li {
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+.container .head .navbar .burger .flexx .bx .right_hidden .around li:hover {
+  transform: scale(1.1);
+  background-color: #34c759;
+}
+.container .head .navbar .burger .flexx .bx .right_hidden .around li:hover a {
+  color: #000;
+}
+.container .head .navbar .burger .flexx .bx .right_hidden .around li a {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 90px;
+  /* identical to box height, or 643% */
+  color: #fff;
 }
 .container .head .navbar .right {
   width: 303px;
