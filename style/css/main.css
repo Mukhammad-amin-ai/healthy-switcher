@@ -212,7 +212,7 @@
 .container .head .text_head .text_bot {
   width: 80%;
   margin-left: 10%;
-  height: 385px;
+  height: 285px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -500,6 +500,7 @@
 }
 .container .food .fcenter {
   width: 100%;
+  flex-wrap: wrap;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -1267,6 +1268,7 @@
   color: #34c759;
 }
 .container .footer {
+  overflow: hidden;
   width: 100%;
   height: 275px;
   background-color: #303030;
@@ -1286,7 +1288,7 @@
 .container .footer .fr_top .text_bot {
   width: 80%;
   margin-left: 10%;
-  height: 385px;
+  height: 285px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -10,7 +10,7 @@
   .text_bot {
     width: 80%;
     margin-left: 10%;
-    height: 385px;
+    height: 285px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -567,6 +567,7 @@
     }
     .fcenter {
       width: 100%;
+      flex-wrap: wrap;
       height: 500px;
       display: flex;
       justify-content: center;
@@ -1407,6 +1408,7 @@
   }
 
   .footer {
+    overflow: hidden;
     width: 100%;
     height: 275px;
     background-color: #303030;
@@ -1421,7 +1423,46 @@
       justify-content: center;
       align-items: center;
       margin-right: 110px;
-      @include txt;
+      .text_bot {
+        width: 80%;
+        margin-left: 10%;
+        height: 285px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .card {
+          width: 245px;
+          height: 95px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          h2 {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 40px;
+            /* identical to box height, or 188% */
+            text-align: center;
+            color: #ffffff;
+          }
+          p {
+            font-family: "Helvetica Neue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 10px;
+            /* or 429% */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+          }
+        }
+      }
     }
     .fr_bot {
       width: 100%;
@@ -1448,4 +1489,11 @@
       }
     }
   }
+
+
+
+  
 }
+
+
+
